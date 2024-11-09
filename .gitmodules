@@ -1,0 +1,3 @@
+[submodule "QuackToHell/Plugins/OpenAI"]
+	path = QuackToHell/Plugins/OpenAI
+	url = https://github.com/life-exe/UnrealOpenAIPlugin

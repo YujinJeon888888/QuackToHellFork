@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "QuackToHell",
+			"Path": "..\\Source\\QuackToHell.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "QuackToHellEditor",
+			"Path": "..\\Source\\QuackToHellEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

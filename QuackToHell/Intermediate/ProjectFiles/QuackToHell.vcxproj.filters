@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\QuackToHell.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\QuackToHell.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\QuackToHellEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OpenAI">
+      <UniqueIdentifier>{183EB1BE-1130-3ABA-8D72-18351A6F1620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OpenAI\Source">
+      <UniqueIdentifier>{56F5B314-E43F-3939-A5A8-4029587EDCE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OpenAI\Source\OpenAIEditor">
+      <UniqueIdentifier>{732EC4A7-D4B5-3CC5-AE1C-9E49444B37C6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\OpenAIEditor.Build.cs">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor</Filter>
+    </None>
+    <Filter Include="Plugins\OpenAI\Source\OpenAIEditor\Private">
+      <UniqueIdentifier>{A078EA51-569E-3B73-9AA1-7BDBC1012997}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Private\OpenAIEditor.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAIEditor\Private\UI">
+      <UniqueIdentifier>{6D4091B8-4084-3626-9D96-4DD5D2D63620}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Private\UI\AttachedFilesContainerWidget.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Private\UI\AttachedImageWidget.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Private\UI\ChatGPTWidget.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Private\UI\ChatMessageWidget.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Private\UI\ImagePreviewWidget.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Private\UI\SaveSettings.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Private\UI\ServiceWidget.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Private\UI</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAIEditor\Public">
+      <UniqueIdentifier>{DD701683-9FA5-345B-A24B-968810313861}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Public\OpenAIEditor.h">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAIEditor\Public\UI">
+      <UniqueIdentifier>{61C335E5-028A-3FD6-A0C3-6BDA874021B7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Public\UI\AttachedFilesContainerWidget.h">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Public\UI\AttachedImageWidget.h">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Public\UI\ChatGPTWidget.h">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Public\UI\ChatMessageWidget.h">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Public\UI\ImagePreviewWidget.h">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Public\UI\SaveSettings.h">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAIEditor\Public\UI\ServiceWidget.h">
+      <Filter>Plugins\OpenAI\Source\OpenAIEditor\Public\UI</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\OpenAI\OpenAI.uplugin">
+      <Filter>Plugins\OpenAI</Filter>
+    </None>
+    <Filter Include="Plugins\OpenAI\Resources">
+      <UniqueIdentifier>{2A2C32C8-E407-3E2B-9D82-530DA74E3610}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OpenAI\Resources\Icon128.png">
+      <Filter>Plugins\OpenAI\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\OpenAI\Source\OpenAITestRunner">
+      <UniqueIdentifier>{21EE5160-0B0A-310E-BC08-405E8EB335F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\OpenAITestRunner.Build.cs">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner</Filter>
+    </None>
+    <Filter Include="Plugins\OpenAI\Source\OpenAITestRunner\Data">
+      <UniqueIdentifier>{DB0D8E61-9B12-39AE-9C9B-24618EA2B29A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Data\bonjour.mp3">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Data</Filter>
+    </None>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Data\hello.mp3">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Data</Filter>
+    </None>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Data\lenna.png">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Data</Filter>
+    </None>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Data\OnlineServicesAuth.ini">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Data</Filter>
+    </None>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Data\OpenAIAuth.ini">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Data</Filter>
+    </None>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Data\test_file.jsonl">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Data</Filter>
+    </None>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Data\test_file_batch.jsonl">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Data</Filter>
+    </None>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Data\test_image.png">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Data</Filter>
+    </None>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Data\whale.png">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Data</Filter>
+    </None>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Data\whale_mask.png">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Data</Filter>
+    </None>
+    <Filter Include="Plugins\OpenAI\Source\OpenAITestRunner\Private">
+      <UniqueIdentifier>{3DAE1BAF-C4FD-31DF-ADD2-5CEBC7A174D1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\APIProvider.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\HttpHelper.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\JsonFuncLib.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\OpenAIFuncLib.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\OpenAIProviderFake.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\OpenAITestRunner.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\TestUtils.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress">
+      <UniqueIdentifier>{6F896547-997B-3AA4-B8CA-6BF0DD7DFB3E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIAssistantsAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIAudioAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIBatchAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIChatAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIEmbeddingAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIFileAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIFineTuneAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIImageAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIModelAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIModerationAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\OpenAIUploadAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\Legacy">
+      <UniqueIdentifier>{78E18094-063D-3259-B190-23FAB49FACBF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\Legacy\OpenAICompletionAPI.spec.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Private\Stress\Legacy</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAITestRunner\Public">
+      <UniqueIdentifier>{2480D767-2E06-37E3-9590-2ED56712084B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Public\OpenAIProviderFake.h">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Public\OpenAITestRunner.h">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAITestRunner\Public\TestUtils.h">
+      <Filter>Plugins\OpenAI\Source\OpenAITestRunner\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI">
+      <UniqueIdentifier>{8475197D-D7A4-3C79-B217-7C31340FF4EE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OpenAI\Source\OpenAI\OpenAI.Build.cs">
+      <Filter>Plugins\OpenAI\Source\OpenAI</Filter>
+    </None>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private">
+      <UniqueIdentifier>{5069840E-CD26-3F0C-B890-E494881DC7B9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\OpenAI.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions">
+      <UniqueIdentifier>{EEB0F7C2-EA04-3B5F-BAA6-582E653EC507}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\DownloadImageAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\EmbeddingsAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\ModerationsAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants">
+      <UniqueIdentifier>{42915B07-EFE7-3EB4-A69D-F0C01BFA95AE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants\CreateAssistantAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants\DeleteAssistantAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants\ListAssistantsAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants\ModifyAssistantAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants\RetrieveAssistantAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Assistants</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Audio">
+      <UniqueIdentifier>{D1418047-942D-3BDD-BF67-68D0F6DAE726}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Audio\AudioTranscriptionAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Audio\AudioTranscriptionVerboseAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Audio\AudioTranslationAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Audio\SpeechAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Audio</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Batches">
+      <UniqueIdentifier>{C1A15758-610D-37E1-80D0-0F5225CF83D6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Batches\CancelBatchAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Batches\CreateBatchAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Batches\ListBatchAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Batches\RetrieveBatchAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Batches</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Chat">
+      <UniqueIdentifier>{8CB27DBC-5510-34D1-9AA6-460ADB05C44E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Chat\ChatCompletionAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Chat\CompletionAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Chat</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files">
+      <UniqueIdentifier>{F3D963CA-E4A1-32F0-8CA0-212474277144}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files\DeleteFileAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files\ListFilesAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files\RetrieveFileAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files\RetrieveFileContentAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files\UploadFileAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Files</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning">
+      <UniqueIdentifier>{6816EAED-DF65-3302-A2F7-B689097AE7A1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning\CancelFineTuningJobAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning\CreateFineTuningJobAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning\ListFineTuningCheckpointsAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning\ListFineTuningEventsAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning\ListFineTuningJobsAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning\RetrieveFineTuningJobAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\FineTuning</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Images">
+      <UniqueIdentifier>{2BAFE9E7-73D0-3BEC-9BD9-9F35BF7B3AEF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Images\ImageAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Images\ImageEditAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Images\ImageVariationAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Images</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Models">
+      <UniqueIdentifier>{9999784E-BB57-3163-A76F-550D22F77E4C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Models\DeleteFineTunedModelAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Models\ListModelsAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Models\RetrieveModelAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Models</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Uploads">
+      <UniqueIdentifier>{0A9D3CF4-AF20-33FA-A4FB-95CB87F01A16}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Uploads\AddUploadPartAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Uploads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Uploads\CancelUploadAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Uploads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Uploads\CompletelUploadAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Uploads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Uploads\CreateUploadAction.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\BlueprintAsyncActions\Uploads</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\ChatGPT">
+      <UniqueIdentifier>{BCE1B440-0757-3F52-815B-23A54BA5C7CA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\BaseService.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\ChatGPT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\ChatGPT.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\ChatGPT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\ChatGPTWorld.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\ChatGPT</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\Services">
+      <UniqueIdentifier>{DF8CFEC2-98AC-3DE7-AAF8-60AC6ABE88E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\Services\News">
+      <UniqueIdentifier>{7595505D-D5D0-3BEF-80BD-B63F9708B16D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\Services\News\NewsService.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\Services\News</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\Services\Time">
+      <UniqueIdentifier>{F7355E5C-681B-35A4-90F9-BD74B22CFD68}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\Services\Time\WorldTimeService.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\Services\Time</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\Services\Weather">
+      <UniqueIdentifier>{8D4A44BF-76CE-344F-B7C0-349B48D6E29C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\Services\Weather\WeatherService.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\ChatGPT\Services\Weather</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\FuncLib">
+      <UniqueIdentifier>{136B3E9D-5B88-3E55-B424-41253DC5C5FB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\FuncLib\FileSystemFuncLib.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\FuncLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\FuncLib\ImageFuncLib.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\FuncLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\FuncLib\JsonFuncLib.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\FuncLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\FuncLib\OpenAIFuncLib.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\FuncLib</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\Http">
+      <UniqueIdentifier>{0B72AB7A-424F-3E3C-AD4D-AC166F5EDB07}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Http\HttpHelper.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Http</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\Provider">
+      <UniqueIdentifier>{522D480B-44F0-311B-9BD0-E7D2A830FF9C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Provider\OpenAIProvider.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Provider</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\Provider\JsonParsers">
+      <UniqueIdentifier>{EE773B7D-DDC4-3F0B-9924-A28B34FBA5F7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Provider\JsonParsers\AudioParser.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Provider\JsonParsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Provider\JsonParsers\ChatParser.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Provider\JsonParsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Provider\JsonParsers\ImageParser.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Provider\JsonParsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Provider\JsonParsers\ModerationParser.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Provider\JsonParsers</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\Sample">
+      <UniqueIdentifier>{C9B46423-5286-3F38-8F75-0C4332A63802}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\APIOverview.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\Sample\Services">
+      <UniqueIdentifier>{F1F0A1B2-5E73-37A9-83AC-12FD37E6AEA8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\Services\QuestService.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample\Services</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public">
+      <UniqueIdentifier>{5BF8E1F2-92DA-33EE-9B1A-6A06A93B6D47}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\OpenAI.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\API">
+      <UniqueIdentifier>{2802E9A5-6D74-3510-B255-F2CE398FF933}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\API\API.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\API</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions">
+      <UniqueIdentifier>{DB625AAF-8A10-3E50-8FDF-98185A3D4250}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\DownloadImageAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\EmbeddingsAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\ModerationsAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants">
+      <UniqueIdentifier>{69C27B43-DE0E-3BEF-8725-DB6AF533B1CB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants\CreateAssistantAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants\DeleteAssistantAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants\ListAssistantsAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants\ModifyAssistantAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants\RetrieveAssistantAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Assistants</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Audio">
+      <UniqueIdentifier>{AB17C03B-B659-3B27-B3BF-E3157D786477}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Audio\AudioTranscriptionAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Audio\AudioTranscriptionVerboseAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Audio\AudioTranslationAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Audio\SpeechAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Audio</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Batches">
+      <UniqueIdentifier>{9C281022-602F-39DE-AF73-B1BDDB854640}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Batches\CancelBatchAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Batches\CreateBatchAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Batches\ListBatchAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Batches\RetrieveBatchAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Batches</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Chat">
+      <UniqueIdentifier>{3DAE7C8F-ADB1-3DBB-8292-8809E5E624CC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Chat\ChatCompletionAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Chat\CompletionAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Chat</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files">
+      <UniqueIdentifier>{09D5544F-295F-3903-B651-FE46D137382B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files\DeleteFileAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files\ListFilesAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files\RetrieveFileAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files\RetrieveFileContentAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files\UploadFileAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Files</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning">
+      <UniqueIdentifier>{F7731493-4216-379F-A7DD-86A09D4668BC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning\CancelFineTuningJobAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning\CreateFineTuningJobAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning\ListFineTuningCheckpointsAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning\ListFineTuningEventsAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning\ListFineTuningJobsAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning\RetrieveFineTuningJobAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\FineTuning</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Images">
+      <UniqueIdentifier>{52096B6E-FA48-313F-A953-BAA57FDC802C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Images\ImageAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Images\ImageEditAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Images\ImageVariationAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Images</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Models">
+      <UniqueIdentifier>{2E8CD227-0569-3B09-B837-3306DA104B48}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Models\DeleteFineTunedModelAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Models\ListModelsAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Models\RetrieveModelAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Models</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Uploads">
+      <UniqueIdentifier>{62249D69-2AD8-3AF4-BA69-4810DDB659C0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Uploads\AddUploadPartAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Uploads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Uploads\CancelUploadAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Uploads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Uploads\CompleteUploadAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Uploads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Uploads\CreateUploadAction.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\BlueprintAsyncActions\Uploads</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\ChatGPT">
+      <UniqueIdentifier>{05AF907C-E7CE-3490-8EEC-C34DAF6C8EE3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\BaseService.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\ChatGPT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\ChatGPT.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\ChatGPT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\ChatGPTWorld.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\ChatGPT</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\Services">
+      <UniqueIdentifier>{334402C5-B439-36B7-A434-493C99E02B79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\Services\News">
+      <UniqueIdentifier>{6991A515-E4D2-33BF-B9F8-07EE2E53C2D7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\Services\News\NewsService.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\Services\News</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\Services\Time">
+      <UniqueIdentifier>{819925FE-CD69-3DFF-9304-0C9272FDDAF0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\Services\Time\WorldTimeService.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\Services\Time</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\Services\Weather">
+      <UniqueIdentifier>{5B924AC3-1EA4-3D25-8A3E-A6A5229089EA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\Services\Weather\WeatherService.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\ChatGPT\Services\Weather</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\FuncLib">
+      <UniqueIdentifier>{A4EF77E2-51AF-3340-84FF-47021AB58FA3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\FuncLib\FileSystemFuncLib.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\FuncLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\FuncLib\ImageFuncLib.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\FuncLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\FuncLib\JsonFuncLib.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\FuncLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\FuncLib\OpenAIFuncLib.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\FuncLib</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\Http">
+      <UniqueIdentifier>{3973415A-D0D1-33DE-81E3-F9DF546862C3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Http\HttpHelper.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Http</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\Provider">
+      <UniqueIdentifier>{8CBD81F8-8DA3-3470-9CB1-5B4542FB6F74}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Delegates.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\OpenAIOptional.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\OpenAIProvider.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\Provider\JsonParsers">
+      <UniqueIdentifier>{6E3C6861-A603-3690-B902-732D4B142564}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\JsonParsers\AudioParser.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\JsonParsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\JsonParsers\ChatParser.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\JsonParsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\JsonParsers\ImageParser.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\JsonParsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\JsonParsers\ModerationParser.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\JsonParsers</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\Provider\Types">
+      <UniqueIdentifier>{5015A98C-467A-3794-8CFD-1623ED9416FA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\AllTypesHeader.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\AssistantTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\AudioTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\BatchTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\CommonTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\EmbeddingTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\FileTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\FineTuneTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\ImageTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\ModelTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\ModerationTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\ToolsTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\UploadTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Chat">
+      <UniqueIdentifier>{906324B8-C926-329A-B3CD-B720E6C8BC1E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Chat\ChatCommonTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Chat\ChatCompletionChunkTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Chat\ChatCompletionTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Chat\ChatTypesHeader.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Chat</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Legacy">
+      <UniqueIdentifier>{1562F54A-8CC8-3CD2-A24A-11B94E60E0F9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Legacy\CompletionTypes.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Provider\Types\Legacy</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\Sample">
+      <UniqueIdentifier>{0E55F358-4289-333F-BB4E-05EB74590FC4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\APIOverview.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\Sample\Services">
+      <UniqueIdentifier>{968332F3-8403-35C3-8BEA-1073D5CDF536}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\Services\QuestService.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample\Services</Filter>
+    </ClInclude>
+    <Filter Include="Source\QuackToHell">
+      <UniqueIdentifier>{F214FDD8-4A43-3E05-B9A8-A05B902E75F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\QuackToHell\QuackToHell.Build.cs">
+      <Filter>Source\QuackToHell</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\QuackToHell\QuackToHell.cpp">
+      <Filter>Source\QuackToHell</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\QuackToHell\QuackToHell.h">
+      <Filter>Source\QuackToHell</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\QuackToHell\QuackToHellCharacter.cpp">
+      <Filter>Source\QuackToHell</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\QuackToHell\QuackToHellCharacter.h">
+      <Filter>Source\QuackToHell</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\QuackToHell\QuackToHellGameMode.cpp">
+      <Filter>Source\QuackToHell</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\QuackToHell\QuackToHellGameMode.h">
+      <Filter>Source\QuackToHell</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

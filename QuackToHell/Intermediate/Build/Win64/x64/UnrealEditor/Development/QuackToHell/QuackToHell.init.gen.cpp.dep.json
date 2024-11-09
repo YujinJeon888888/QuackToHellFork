@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\swu\\documents\\unreal projects\\quacktohell\\quacktohell\\intermediate\\build\\win64\\unrealeditor\\inc\\quacktohell\\uht\\quacktohell.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\swu\\documents\\unreal projects\\quacktohell\\quacktohell\\intermediate\\build\\win64\\x64\\quacktohelleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\swu\\documents\\unreal projects\\quacktohell\\quacktohell\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\quacktohell\\definitions.quacktohell.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
