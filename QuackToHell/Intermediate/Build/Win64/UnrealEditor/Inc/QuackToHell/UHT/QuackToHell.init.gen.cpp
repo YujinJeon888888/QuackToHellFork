@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeQuackToHell_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF487BECC,
+				0xC0301150,
 				0x3E60C77D,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeQuackToHell_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_QuackToHell.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_QuackToHell(Z_Construct_UPackage__Script_QuackToHell, TEXT("/Script/QuackToHell"), Z_Registration_Info_UPackage__Script_QuackToHell, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xF487BECC, 0x3E60C77D));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_QuackToHell(Z_Construct_UPackage__Script_QuackToHell, TEXT("/Script/QuackToHell"), Z_Registration_Info_UPackage__Script_QuackToHell, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xC0301150, 0x3E60C77D));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

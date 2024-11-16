@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\swu\\documents\\unreal projects\\quacktohell\\quacktohell\\source\\quacktohell\\quacktohell.cpp",
+        "Source": "c:\\users\\swu\\documents\\unreal projects\\quacktohellfork\\quacktohell\\source\\quacktohell\\quacktohell.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\swu\\documents\\unreal projects\\quacktohell\\quacktohell\\intermediate\\build\\win64\\x64\\quacktohelleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\users\\swu\\documents\\unreal projects\\quacktohellfork\\quacktohell\\intermediate\\build\\win64\\x64\\quacktohelleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\swu\\documents\\unreal projects\\quacktohell\\quacktohell\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\quacktohell\\definitions.quacktohell.h",
-            "c:\\users\\swu\\documents\\unreal projects\\quacktohell\\quacktohell\\source\\quacktohell\\quacktohell.h"
+            "c:\\users\\swu\\documents\\unreal projects\\quacktohellfork\\quacktohell\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\quacktohell\\definitions.quacktohell.h",
+            "c:\\users\\swu\\documents\\unreal projects\\quacktohellfork\\quacktohell\\source\\quacktohell\\quacktohell.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

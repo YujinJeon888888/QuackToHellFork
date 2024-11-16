@@ -1,11 +1,11 @@
-"C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Source\QuackToHell\QuackToHell.cpp"
-/FI"C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Intermediate\Build\Win64\x64\QuackToHellEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\Definitions.QuackToHell.h"
-/Yu"C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Intermediate\Build\Win64\x64\QuackToHellEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Intermediate\Build\Win64\x64\QuackToHellEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHell.cpp.obj"
-/sourceDependencies "C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHell.cpp.dep.json"
-@"C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHell.Shared.rsp"
+"C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Source\QuackToHell\QuackToHell.cpp"
+/FI"C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\QuackToHellEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\Definitions.QuackToHell.h"
+/Yu"C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\QuackToHellEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\QuackToHellEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHell.cpp.obj"
+/sourceDependencies "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHell.cpp.dep.json"
+@"C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHell.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi
