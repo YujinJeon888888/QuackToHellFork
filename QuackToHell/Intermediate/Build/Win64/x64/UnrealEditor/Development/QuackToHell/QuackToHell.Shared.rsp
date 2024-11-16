@@ -1,6 +1,6 @@
 /I "."
-/I "C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Intermediate\Build\Win64\UnrealEditor\Inc\QuackToHell\UHT"
-/I "C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Source"
+/I "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\UnrealEditor\Inc\QuackToHell\UHT"
+/I "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Source"
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"
 /I "Runtime\TraceLog\Public"
