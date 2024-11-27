@@ -8,6 +8,11 @@ public class QuackToHell : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
-	}
+        // 필요한 모듈 추가: OpenAI, Json, JsonUtilities 
+        PublicDependencyModuleNames.AddRange(
+            new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "OpenAI", "Json", "JsonUtilities" }
+        );
+
+
+    }
 }
