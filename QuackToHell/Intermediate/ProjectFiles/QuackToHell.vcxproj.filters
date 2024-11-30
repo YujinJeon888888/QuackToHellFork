@@ -12,7 +12,9 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\OpenAIAuth.ini" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -472,6 +474,18 @@
     <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\APIOverview.cpp">
       <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyGodCalls.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyGodFunctions.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyOpenAICalls.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyOpenAIFunctions.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
     <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\Sample\Services">
       <UniqueIdentifier>{F1F0A1B2-5E73-37A9-83AC-12FD37E6AEA8}</UniqueIdentifier>
     </Filter>
@@ -785,6 +799,18 @@
       <UniqueIdentifier>{0E55F358-4289-333F-BB4E-05EB74590FC4}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\APIOverview.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyGodCalls.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyGodFunctions.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyOpenAICalls.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyOpenAIFunctions.h">
       <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
     </ClInclude>
     <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\Sample\Services">

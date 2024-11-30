@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\swu\\Documents\\Unreal Projects\\QuackToHell\\QuackToHell\\Intermediate\\Build\\BuildRulesProjects\\QuackToHellModuleRules\\QuackToHellModuleRules.csproj": {}
+    "C:\\Users\\swu\\Documents\\Unreal Projects\\QuackToHellFork\\QuackToHell\\Intermediate\\Build\\BuildRulesProjects\\QuackToHellModuleRules\\QuackToHellModuleRules.csproj": {}
   },
   "projects": {
     "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj": {
@@ -1098,14 +1098,14 @@
         }
       }
     },
-    "C:\\Users\\swu\\Documents\\Unreal Projects\\QuackToHell\\QuackToHell\\Intermediate\\Build\\BuildRulesProjects\\QuackToHellModuleRules\\QuackToHellModuleRules.csproj": {
+    "C:\\Users\\swu\\Documents\\Unreal Projects\\QuackToHellFork\\QuackToHell\\Intermediate\\Build\\BuildRulesProjects\\QuackToHellModuleRules\\QuackToHellModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swu\\Documents\\Unreal Projects\\QuackToHell\\QuackToHell\\Intermediate\\Build\\BuildRulesProjects\\QuackToHellModuleRules\\QuackToHellModuleRules.csproj",
+        "projectUniqueName": "C:\\Users\\swu\\Documents\\Unreal Projects\\QuackToHellFork\\QuackToHell\\Intermediate\\Build\\BuildRulesProjects\\QuackToHellModuleRules\\QuackToHellModuleRules.csproj",
         "projectName": "QuackToHellModuleRules",
-        "projectPath": "C:\\Users\\swu\\Documents\\Unreal Projects\\QuackToHell\\QuackToHell\\Intermediate\\Build\\BuildRulesProjects\\QuackToHellModuleRules\\QuackToHellModuleRules.csproj",
+        "projectPath": "C:\\Users\\swu\\Documents\\Unreal Projects\\QuackToHellFork\\QuackToHell\\Intermediate\\Build\\BuildRulesProjects\\QuackToHellModuleRules\\QuackToHellModuleRules.csproj",
         "packagesPath": "C:\\Users\\swu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swu\\Documents\\Unreal Projects\\QuackToHell\\QuackToHell\\Intermediate\\Build\\BuildRulesProjects\\QuackToHellModuleRules\\obj\\",
+        "outputPath": "C:\\Users\\swu\\Documents\\Unreal Projects\\QuackToHellFork\\QuackToHell\\Intermediate\\Build\\BuildRulesProjects\\QuackToHellModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\swu\\AppData\\Roaming\\NuGet\\NuGet.Config"

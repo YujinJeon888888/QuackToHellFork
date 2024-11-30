@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuackToHellModuleRules
-build_property.ProjectDir = C:\Users\swu\Documents\Unreal Projects\QuackToHell\QuackToHell\Intermediate\Build\BuildRulesProjects\QuackToHellModuleRules\
+build_property.ProjectDir = C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\BuildRulesProjects\QuackToHellModuleRules\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
