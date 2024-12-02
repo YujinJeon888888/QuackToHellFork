@@ -7,11 +7,13 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\QuackToHellEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\MyGameModeTest.gen.cpp.obj"
 "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHell.init.gen.cpp.obj"
 "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHellCharacter.gen.cpp.obj"
 "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHellGameMode.gen.cpp.obj"
 "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHell.cpp.obj"
 "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHellCharacter.cpp.obj"
 "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\QuackToHellGameMode.cpp.obj"
+"C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\MyGameModeTest.cpp.obj"
 "C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\Default.rc2.res"
 /OUT:"C:\Users\swu\Documents\Unreal Projects\QuackToHellFork\QuackToHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\QuackToHell\UnrealEditor-QuackToHell.lib"
