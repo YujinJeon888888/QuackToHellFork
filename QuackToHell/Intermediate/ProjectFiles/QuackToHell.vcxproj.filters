@@ -12,7 +12,14 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\JsonOfDefendant.txt" />
+    <None Include="..\..\JsonOfJury1.txt" />
+    <None Include="..\..\JsonOfJury2.txt" />
+    <None Include="..\..\JsonOfResident.txt" />
+    <None Include="..\..\OpenAIAuth.ini" />
+    <None Include="..\..\PromptToGod.txt" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -472,6 +479,27 @@
     <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\APIOverview.cpp">
       <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyChatGameMode.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyCheatManager.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyGodCalls.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyGodFunctions.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyOpenAICalls.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyOpenAIFunctions.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyPlayerController.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
     <Filter Include="Plugins\OpenAI\Source\OpenAI\Private\Sample\Services">
       <UniqueIdentifier>{F1F0A1B2-5E73-37A9-83AC-12FD37E6AEA8}</UniqueIdentifier>
     </Filter>
@@ -787,6 +815,27 @@
     <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\APIOverview.h">
       <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyChatGameMode.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyCheatManager.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyGodCalls.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyGodFunctions.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyOpenAICalls.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyOpenAIFunctions.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyPlayerController.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
     <Filter Include="Plugins\OpenAI\Source\OpenAI\Public\Sample\Services">
       <UniqueIdentifier>{968332F3-8403-35C3-8BEA-1073D5CDF536}</UniqueIdentifier>
     </Filter>
@@ -817,5 +866,18 @@
     <ClInclude Include="..\..\Source\QuackToHell\QuackToHellGameMode.h">
       <Filter>Source\QuackToHell</Filter>
     </ClInclude>
+    <Filter Include="Source\QuackToHell\Private">
+      <UniqueIdentifier>{3C93E03C-2089-3134-8BDA-82D8345C269F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\QuackToHell\Private\MyGameModeTest.cpp">
+      <Filter>Source\QuackToHell\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\QuackToHell\Public">
+      <UniqueIdentifier>{795174C0-2851-3D02-B997-0FFBC6C132CC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\QuackToHell\Public\MyGameModeTest.h">
+      <Filter>Source\QuackToHell\Public</Filter>
+    </ClInclude>
+    <None Include=".editorconfig" />
   </ItemGroup>
 </Project>
