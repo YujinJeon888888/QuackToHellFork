@@ -1,13 +1,13 @@
 {
 	"role": "jury",
-	"name": "Sylvia",
-	"personality": "sedate",
-	"speech_style": "HmmHmm..",
-	"profession_understanding": "Believes lawyers craft stories; trusts prosecutors to reveal truth.",
-	"afterlife_perception": "Views heaven as eternal wisdom, hell as perpetual ignorance.",
+	"name": "Marisol",
+	"personality": "eccentric",
+	"speech_style": "~Hagie",
+	"profession_understanding": "Marisol thinks lawyers and prosecutors are two sides of a coin that’s forever flipping.",
+	"afterlife_perception": "Believes heaven and hell are merely states of mind and self-created realities.",
 	"past_life_relevance": true,
-	"past_life_story": "Sylvia was Maximus's childhood friend, always watching in admiration as Maximus rebelled against social norms and sought unique truths.",
-	"knowledge_of_defendant's past_life": 45
+	"past_life_story": "Marisol and Eliot were distant relatives who lived near each other. Marisol often brought her peculiar inventions to Eliot’s shop to trade them for potions. They shared conversations about the moral ambiguity of their trades. Despite their interactions, Marisol never delved too deeply into Eliot’s affairs.",
+	"knowledge_of_defendant's past_life": 35
 }﻿
 **위의 Json Schema의 각 필드에 대한 설명**:
 {

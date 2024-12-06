@@ -1,12 +1,12 @@
 {
 	"role": "jury",
-	"name": "Thomas",
-	"personality": "timid",
-	"speech_style": "stutter",
-	"profession_understanding": "Feels lawyers deceive with words; sees prosecutors as necessary truth-bringers.",
-	"afterlife_perception": "Considers the afterlife a mirror of one’s actions in life.",
+	"name": "Theo",
+	"personality": "forage",
+	"speech_style": "sedate",
+	"profession_understanding": "Theo sees lawyers as schemers and prosecutors as truth seekers.",
+	"afterlife_perception": "Thinks heaven is an endless forest to explore, and hell is a place with no trees.",
 	"past_life_relevance": false,
-	"knowledge_of_defendant's past_life": 10
+	"knowledge_of_defendant's past_life": 15
 }﻿
 **위의 Json Schema의 각 필드에 대한 설명**:
 {

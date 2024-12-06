@@ -1,10 +1,11 @@
 {
 	"role": "defendant",
-	"name": "Maximus",
-	"personality": "eccentric",
-	"speech_style": "~Hagie",
-	"profession_understanding": "Knows lawyers use evidence to justify actions; believes prosecutors exaggerate to depict guilt.",
-	"afterlife_perception": "Thinks afterlife is a vast library where lives are stored."
+	"name": "Eliot",
+	"personality": "timid",
+	"speech_style": "stutter",
+	"profession_understanding": "Eliot has vague ideas about the roles of lawyers and prosecutors, believing they just argue a lot.",
+	"afterlife_perception": "Eliot thinks heaven is a quiet, peaceful library, and hell is a loud, chaotic place.",
+	"good_or_evil_decision_event": "During Eliot's life, he found himself managing a large apothecary that was deeply involved in both community healing and illicit activities. Eliot was passionate about healing and the benefits of herbs and remedies. His shop became a place of refuge and he offered treatments to those who couldn't afford them. However, under the pressure of financial hardship and failing health of someone close, Eliot agreed to sell questionable herbs to questionable people at a high profit, suspecting but never confirming they might be used harmfully. While others saw his actions as entrepreneurial and courageous, an equal number felt he was endangering the community by turning a blind eye to potential misuse. In his heart, Eliot wrestled with the morality of his decisions, often wondering if his need to help his family truly justified the increasingly grey paths he chose."
 }﻿
 **위의 Json Schema의 각 필드에 대한 설명**:
 {

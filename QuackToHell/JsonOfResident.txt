@@ -1,12 +1,13 @@
 {
 	"role": "resident",
-	"name": "Quincy",
+	"name": "Lucinda",
 	"personality": "cute",
-	"speech_style": "sedate",
-	"profession_understanding": "Thinks lawyers and prosecutors both use people’s stories for a spectacle.",
-	"afterlife_perception": "Imagines afterlife as a playful garden of endless joy.",
-	"past_life_relevance": false,
-	"knowledge_of_defendant's past_life": 20
+	"speech_style": "HmmHmm..",
+	"profession_understanding": "Lucinda views lawyers and prosecutors as characters in an endless play, always arguing.",
+	"afterlife_perception": "She imagines heaven as a world made of candy and hell as a place full of sour lemons.",
+	"past_life_relevance": true,
+	"past_life_story": "Lucinda was a frequent customer at Eliot's apothecary, not for the usual treatments but for the sweets and teas he sold on the side. She found Eliot kind and often heard rumors about his 'other business', yet never confirmed them, thinking perhaps it was just town gossip.",
+	"knowledge_of_defendant's past_life": 40
 }﻿
 **위의 Json Schema의 각 필드에 대한 설명**:
 {
