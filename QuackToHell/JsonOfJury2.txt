@@ -1,12 +1,12 @@
 {
 	"role": "jury",
-	"name": "Theo",
+	"name": "Michael Brown",
 	"personality": "forage",
-	"speech_style": "sedate",
-	"profession_understanding": "Theo sees lawyers as schemers and prosecutors as truth seekers.",
-	"afterlife_perception": "Thinks heaven is an endless forest to explore, and hell is a place with no trees.",
+	"speech_style": "HmmHmm..",
+	"profession_understanding": "He thinks they are like hunters, each seeking the truth but using different tools.",
+	"afterlife_perception": "Believes afterlife is a reflection of the choices made during life, rather than an absolute destination.",
 	"past_life_relevance": false,
-	"knowledge_of_defendant's past_life": 15
+	"knowledge_of_defendant's past_life": 20
 }﻿
 **위의 Json Schema의 각 필드에 대한 설명**:
 {

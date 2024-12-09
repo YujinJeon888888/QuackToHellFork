@@ -20,6 +20,7 @@
     <None Include="..\..\JsonOfResident.txt" />
     <None Include="..\..\OpenAIAuth.ini" />
     <None Include="..\..\PromptToGod.txt" />
+    <None Include="..\..\PromptToNPC.txt" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -491,6 +492,9 @@
     <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyGodFunctions.cpp">
       <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyNPCDialogDelegate.cpp">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Plugins\OpenAI\Source\OpenAI\Private\Sample\MyOpenAICalls.cpp">
       <Filter>Plugins\OpenAI\Source\OpenAI\Private\Sample</Filter>
     </ClCompile>
@@ -827,6 +831,9 @@
     <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyGodFunctions.h">
       <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyNPCDialogDelegate.h">
+      <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Plugins\OpenAI\Source\OpenAI\Public\Sample\MyOpenAICalls.h">
       <Filter>Plugins\OpenAI\Source\OpenAI\Public\Sample</Filter>
     </ClInclude>
@@ -878,6 +885,6 @@
     <ClInclude Include="..\..\Source\QuackToHell\Public\MyGameModeTest.h">
       <Filter>Source\QuackToHell\Public</Filter>
     </ClInclude>
-    <None Include=".editorconfig" />
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

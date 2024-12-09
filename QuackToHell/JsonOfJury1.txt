@@ -1,13 +1,13 @@
 {
 	"role": "jury",
-	"name": "Marisol",
+	"name": "Emily Clark",
 	"personality": "eccentric",
-	"speech_style": "~Hagie",
-	"profession_understanding": "Marisol thinks lawyers and prosecutors are two sides of a coin that’s forever flipping.",
-	"afterlife_perception": "Believes heaven and hell are merely states of mind and self-created realities.",
+	"speech_style": "sedate",
+	"profession_understanding": "She views them as strategic game players maneuvering the board of justice.",
+	"afterlife_perception": "She pictures heaven and hell as two sides of the same coin, both necessary to maintain cosmic balance.",
 	"past_life_relevance": true,
-	"past_life_story": "Marisol and Eliot were distant relatives who lived near each other. Marisol often brought her peculiar inventions to Eliot’s shop to trade them for potions. They shared conversations about the moral ambiguity of their trades. Despite their interactions, Marisol never delved too deeply into Eliot’s affairs.",
-	"knowledge_of_defendant's past_life": 35
+	"past_life_story": "Emily was once John's neighbor and witnessed his struggles and triumphs first-hand. She admired his dedication to progress and often pondered the moral consequences of his actions.",
+	"knowledge_of_defendant's past_life": 45
 }﻿
 **위의 Json Schema의 각 필드에 대한 설명**:
 {

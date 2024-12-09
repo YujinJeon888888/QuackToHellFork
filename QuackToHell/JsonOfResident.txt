@@ -1,13 +1,12 @@
 {
 	"role": "resident",
-	"name": "Lucinda",
+	"name": "Olivia Stone",
 	"personality": "cute",
-	"speech_style": "HmmHmm..",
-	"profession_understanding": "Lucinda views lawyers and prosecutors as characters in an endless play, always arguing.",
-	"afterlife_perception": "She imagines heaven as a world made of candy and hell as a place full of sour lemons.",
+	"speech_style": "~Hagie",
+	"profession_understanding": "She perceives them as storytellers convincing others of their narrative.",
+	"afterlife_perception": "Thinks of afterlife as a continuation of one's story where true character is revealed.",
 	"past_life_relevance": true,
-	"past_life_story": "Lucinda was a frequent customer at Eliot's apothecary, not for the usual treatments but for the sweets and teas he sold on the side. She found Eliot kind and often heard rumors about his 'other business', yet never confirmed them, thinking perhaps it was just town gossip.",
-	"knowledge_of_defendant's past_life": 40
+	"past_life_story": "Olivia was a journalist who covered the unfolding events of John's agricultural advancements and the subsequent fallout. Her reports played a crucial role in raising public awareness about the emerging issues."
 }﻿
 **위의 Json Schema의 각 필드에 대한 설명**:
 {
